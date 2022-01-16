@@ -6,13 +6,4 @@
     <artifactId>hello-maven</artifactId>
     <version>1</version>
     <packaging>war</packaging>
-      <name>JBoss Webdav Extension pom</name>
-    <build>
-      <extensions>
-        <extension>
-           <groupId>se.thinkcode</groupId>
-    <artifactId>hello-maven</artifactId>
-        </extension>
-      </extensions>
-    </build>
 </project>
