@@ -6,7 +6,7 @@
     <artifactId>hello-maven</artifactId>
     <version>0.0.1</version>
 
-    <!-- <dependencies>
+    <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -19,7 +19,7 @@
             <version>3.14.0</version>
             <scope>test</scope>
         </dependency>
-    </dependencies> -->
+    </dependencies>
 
     <build>
         <plugins>
