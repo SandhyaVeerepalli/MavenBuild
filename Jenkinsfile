@@ -13,16 +13,6 @@ pipeline{
             sh "mvn clean package"
             sh "mv target/*.war target/MavenBuild.war"
              }
-            }
-     stage("deploy-dev"){
-       steps{
-          sshagent(['tomcat-dev1']) {
-          sh """
-          scp -o StrictHostKeyChecking=no target/MavenBuild.war  
-          http://ec2-44-201-194-200.compute-1.amazonaws.com:8080/
-           """
-            }
-          }
-        }
+           
       }
     }
